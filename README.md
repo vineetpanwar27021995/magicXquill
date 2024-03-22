@@ -1,4 +1,5 @@
 # magicXquill
+## Magic meets Quill 🤩
 Our **vision** at quill is to create a pen, or rather a smart pen, which will help users to save anything which can be drawn, written, i.e scribbled to any device of their choice
 
 ## Problem Statement:
@@ -18,16 +19,17 @@ We want to design a pen, or rather a smart pen, which will help users to save an
  
 ## Architecture:
 ### 1. Hardware: Wireless Pen with some sensors
-  Pen Tip: The tip of the pen needs to be sensitive and capable of detecting pressure and movement.
-  Sensors: Incorporate sensors like accelerometers and gyroscopes to track the movement of the pen.
-  Bluetooth Module: To enable communication between the pen and smart devices.
-  Battery: Power source to operate the pen's electronics.
-  Microcontroller: Controls the pen's functions, including data processing and communication with external devices.
-  Memory Storage: To temporarily store the written data before transmitting it to smart devices.
+  1. Pen Tip: The tip of the pen needs to be sensitive and capable of detecting pressure and movement.
+  2. Sensors: Incorporate sensors like accelerometers and gyroscopes to track the movement of the pen.
+  3. Bluetooth Module: To enable communication between the pen and smart devices.
+  4. Battery: Power source to operate the pen's electronics.
+  5. Microcontroller: Controls the pen's functions, including data processing and communication with external devices.
+  6. Memory Storage: To temporarily store the written data before transmitting it to smart devices.
 
 
-### Software:
-1. Windows Operating system Application: Windows app which will help convert the communicated information(from pen) to words or designs in the windows OS and hence can be used in various applications. These words can be complete with AI powered autosuggestion.
-2. Mac OS Operating system Application: Same application but for Mac OS
-3. IOS Operating System Application: Same application but for iOS
-4. Android Operating System Application: Same application but for Android.
+### 2 .Software:
+ 1. Windows Operating system Application: Windows app which will help convert the communicated information(from pen) to words or designs in the windows OS and hence can be used in various  
+applications. These words can be complete with AI powered autosuggestion.
+ 2. Mac OS Operating system Application: Same application but for Mac OS
+ 3. IOS Operating System Application: Same application but for iOS
+ 4. Android Operating System Application: Same application but for Android.
